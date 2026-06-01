@@ -16,7 +16,7 @@ A study comparing **three different approaches** for brain tumor detection from 
 The same 6 architectures were used as frozen feature extractors; the resulting vectors were classified with 5 ML algorithms (SVM, Random Forest, XGBoost, KNN, Logistic Regression). 6 × 5 = 30 combinations.
 
 **Method 3 — Handcrafted Feature Extraction + ML (5-Fold CV)**
-6 traditional methods (GLCM, Hu Moments, histogram statistics, HOG, Gabor, LBP) were extracted and classified with the same 5 ML algorithms. The individual contribution of each method was also examined (ablation).
+6 traditional feature extraction methods (GLCM, Hu Moments, histogram statistics, HOG, Gabor, LBP) were applied. Each method was classified separately with the same 5 ML algorithms, producing 6 × 5 = 30 combinations, to compare the discriminative power of each handcrafted feature type.
 
 ## Folder Structure
 
