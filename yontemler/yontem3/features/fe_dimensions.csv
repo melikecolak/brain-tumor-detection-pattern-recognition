@@ -1,0 +1,8 @@
+method,dim
+GLCM (texture),20
+Hu Moments (shape),7
+Stats (intensity),37
+HOG (edge),1764
+Gabor (frequency),32
+LBP (local),10
+TOTAL,1870

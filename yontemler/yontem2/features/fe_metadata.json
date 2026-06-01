@@ -1,0 +1,50 @@
+[
+  {
+    "model": "efficientnetb0",
+    "backbone_last_layer": "top_activation",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 1280,
+    "n_samples": 3000,
+    "extract_time_sec": 432.22983997
+  },
+  {
+    "model": "xception",
+    "backbone_last_layer": "block14_sepconv2_act",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 2048,
+    "n_samples": 3000,
+    "extract_time_sec": 49.363414656999794
+  },
+  {
+    "model": "inceptionv3",
+    "backbone_last_layer": "mixed10",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 2048,
+    "n_samples": 3000,
+    "extract_time_sec": 31.326094565999938
+  },
+  {
+    "model": "vgg19",
+    "backbone_last_layer": "block5_pool",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 512,
+    "n_samples": 3000,
+    "extract_time_sec": 49.40939655500006
+  },
+  {
+    "model": "resnet101",
+    "backbone_last_layer": "conv5_block3_out",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 2048,
+    "n_samples": 3000,
+    "extract_time_sec": 35.98538757699998
+  },
+  {
+    "model": "densenet121",
+    "backbone_last_layer": "relu",
+    "pooling": "GlobalAveragePooling2D",
+    "feature_dim": 1024,
+    "n_samples": 3000,
+    "extract_time_sec": 47.33999960599999
+  }
+]
